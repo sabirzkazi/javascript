@@ -13,8 +13,8 @@
   <body>
     <h1 id="result"></h1>
     <script>
-      var r = "HellSabior";
-      let result = r.includes(" ");
+      var r = "Hell-Sabior";
+      let result = r.replaceAll("-", "space");
       document.getElementById("result").innerHTML = result;
     </script>
   </body>
