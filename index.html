@@ -1,21 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
-        body {
-            background-color: gray;
-        }
+      body {
+        background-color: gray;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <h1 id="result"></h1>
     <script>
-        
-        let result = ;
-        document.getElementById("result").innerHTML = result;
+      let fruits = ["Apple", "Orange", "Banana"];
+      //   fruits.push("coconet");
+      //   fruits.pop();
+      //   fruits.shift();
+      var result = "";
+      for (let id = 0; id < fruits.length; id++) {
+        result += fruits[id] + " ";
+      }
+      document.getElementById("result").innerHTML = result;
     </script>
-</body>
+  </body>
 </html>
