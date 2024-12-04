@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+
     <style>
       body {
         background-color: gray;
@@ -11,9 +12,24 @@
     </style>
   </head>
   <body>
-    <h1 id="result"></h1>
+    <h1 id="r"></h1>
     <script>
-      
+      let x = "";
+      const myObj = {
+        name: "John",
+        age: 30,
+        cars: [
+          { name: "Ford", models: ["Fiesta", "Focus", "Mustang"] },
+          { name: "BMW", models: ["320", "X3", "X5"] },
+          { name: "Fiat", models: ["500", "Panda"] },
+        ],
+      };
+      for (const i in myObj.cars) {
+        x += "<h2>" + myObj.cars[i].name + "</h2>";
+        for (const i in cars) {
+        }
+      }
+      document.getElementById("r").innerHTML = x;
     </script>
   </body>
 </html>

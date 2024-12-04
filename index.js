@@ -1,11 +1,16 @@
-const a = new Array(40);
-console.log(a[0]);
-const n = new Array(40, 30);
-console.log(n[0]);
-const b = [40];
-console.log(b[0]);
-
-console.log("-------------------------------------------------");
-console.log(a instanceof Array);
-console.log(n instanceof Array);
-console.log(b instanceof Array);
+let x = "";
+const myObj = {
+  name: "John",
+  age: 30,
+  cars: [
+    { name: "Ford", models: ["Fiesta", "Focus", "Mustang"] },
+    { name: "BMW", models: ["320", "X3", "X5"] },
+    { name: "Fiat", models: ["500", "Panda"] },
+  ],
+};
+for (const i in myObj.cars) {
+  x += "<h2>" + myObj.cars[i].name + "</h2>";
+  for (const i in cars) {
+  }
+}
+document.getElementById("r").innerHTML = x;
