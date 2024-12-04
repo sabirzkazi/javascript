@@ -3,3 +3,4 @@ console.log(cars);
 cars[0] = "opel";
 console.log(cars);
 console.log(cars.toString());
+console.log(cars.toString());
