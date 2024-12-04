@@ -7,3 +7,4 @@ console.log(cars.toString());
 console.log(cars.toString());
 console.log(cars.toString());
 console.log(cars.toString());
+console.log(cars.toString());
