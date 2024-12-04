@@ -1,11 +1,11 @@
-const cars = ["Saab", "Volvo", "BMW"];
-cars.push("Hondai");
-let text = "";
-cars.forEach(plus);
+const a = new Array(40);
+console.log(a[0]);
+const n = new Array(40, 30);
+console.log(n[0]);
+const b = [40];
+console.log(b[0]);
 
-function plus(value) {
-  text += "`" + value + "`" + " ";
-}
-
-co
-console.log(typeof cars);
+console.log("-------------------------------------------------");
+console.log(a instanceof Array);
+console.log(n instanceof Array);
+console.log(b instanceof Array);
