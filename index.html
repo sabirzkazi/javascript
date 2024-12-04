@@ -12,7 +12,7 @@
     </style>
   </head>
   <body>
-    <h1 id="r"></h1>
+    <p id="r"></p>
     <script>
       let x = "";
       const myObj = {
@@ -24,9 +24,10 @@
           { name: "Fiat", models: ["500", "Panda"] },
         ],
       };
-      for (const i in myObj.cars) {
+      for (let i in myObj.cars) {
         x += "<h2>" + myObj.cars[i].name + "</h2>";
-        for (const i in cars) {
+        for (let m in myObj.cars[i].models) {
+          x += myObj.cars[i].models[m] + "<br>";
         }
       }
       document.getElementById("r").innerHTML = x;
