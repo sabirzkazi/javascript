@@ -1,4 +1,5 @@
 const cars = ["Saab", "Volvo", "BMW"];
+cars.push("Hondai");
 let text = "";
 cars.forEach(plus);
 
