@@ -1,9 +1,5 @@
-const matrix = [
-  [1, 2, 3],
-  [4, 5, 6],
-  [7, 8, 9],
-];
-for (const row of matrix) {
-  const rowString = row.join(" ");
-  console.log(rowString);
-}
+const cars = ["Saab", "Volvo", "BMW"];
+console.log(cars);
+cars[0] = "opel";
+console.log(cars);
+console.log(cars.toString());
