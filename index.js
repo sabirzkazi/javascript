@@ -7,4 +7,5 @@ function plus(value) {
   text += "`" + value + "`" + " ";
 }
 
-console.log(text);
+co
+console.log(typeof cars);
