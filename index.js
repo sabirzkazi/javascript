@@ -1,9 +1,5 @@
 const numbers = [4, 9, 16, 25, 29];
 
-let first = numbers.find(funOne);
-
-function funOne(value, index, array) {
-  return value > 18;
-}
+let first = numbers.findLast((x) => x > 9);
 
 console.log(first);
